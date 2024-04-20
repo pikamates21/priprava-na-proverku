@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Příprava na prověrku</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div id="box">
+
+        <header>
+            <h1>Základy HTML - příklad zadání praktické prověrky</h1>
+        </header>
+        <main>
+            <p class="odstavec1">Vytvořte webovou stránku podle níže uvedené předlohy. Stránka bude vytvořena ve verzi
+                HTML 5 a bude
+                validní
+                (s případnou výjimkou atributu border u tabulky).
+            </p>
+            <h2>Příprava na praktickou prověrku</h2>
+            <ul class="odkaz">
+                <li><a href="#upravy">Textové úpravy</a></li>
+                <li><a href="#tabulka">Tabulka</a></li>
+            </ul>
+            <h3><a id="upravy">Textové úpravy</a></h3>
+            <h4>Adresy používané na internetu</h4>
+            Adresy na internetu jsou klíče k digitálnímu světu. Nejběžnější je <mark>URL</mark>, která obsahuje
+            protokol, doménu a
+            cestu k zdroji. Další typ je <mark>IP</mark> adresa, jedinečný identifikátor každého zařízení online.
+            Používání <mark>názvů
+                domén</mark> je častější a pohodlnější pro uživatele. Bez adres bychom nemohli využívat většinu
+            internetových
+            služeb.
+            <dl>
+                <dt>URL</dt>
+                <dd>Příklad: <a
+                        href="https://www.google.com/search?q=internet+addresses">https://www.google.com/search?q=internet+addresses</a>
+                </dd>
+                <dd>Funkce: Slouží k přesné identifikaci umístění zdroje informací na internetu.</dd>
+                <dt>IP</dt>
+                <dd>Příklad IPv4: "192.0.2.1"</dd>
+                <dd>Příklad IPv6: "2001:0db8:85a3:0000:0000:8a2e:0370:7334"</dd>
+                <dd>Funkce: směrování datagramů (paketů) ze zdrojového do cílového počítače</dd>
+                <dt>Názvy domén</dt>
+                <dd>Příklad: "google.com"</dd>
+                <dd>Funkce: Směrování e-mailů, správa souborů.</dd>
+            </dl>
+            <h4>Seznam významných termínu a zkratek</h4>
+            <dl>
+                <dt><u>HTML</u></dt>
+                <dd>HyperTextový Značkovací Jazyk</dd>
+                <dt><u>HTTP</u></dt>
+                <dd>HyperTextový Přenosový Protokol</dd>
+                <dt>Validátor</dt>
+                <dd>Program, který kontroluje, zda je kód validní</dd>
+                <dt>Server</dt>
+                <dd>Počítač, který poskytuje služby ostatním počítačům</dd>
+            </dl>
+            <h3><a id="tabulka">Tabulka</a></h3>
+            <table>
+                <tr>
+                    <th rowspan="2">Nečíslovaný seznam</th>
+                    <th colspan="2">Prvky stránky</th>
+                    <th rowspan="2">Obrázek (šířka 200px)</th>
+                </tr>
+                <tr>
+                    <th>Značky</th>
+                    <th>Entity</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">
+                        <ul>
+                            <li>IP adresa</li>
+                            <li>Jmenná adresa</li>
+                            <li>URL</li>
+                        </ul>
+                    </td>
+                    <td>H<sub>2</sub>O</td>
+                    <td>&amp;</td>
+                    <td rowspan="2"><img src="./lyzar.jpg" alt="lyzar"></td>
+                </tr>
+                <tr>
+                    <td>c = a<sup>2</sup> + b<sup>2</sup></td>
+                    <td>&copy;</td>
+                </tr>
+                <tr>
+                    <td>odkaz</td>
+                    <td colspan="3"><a href="https://www.w3.org/">www.w3c.org</a></td>
+                </tr>
+            </table>
+        </main>
+        <footer>
+            <hr>
+            <p>&#169;&nbsp;<mark>Josef Spejbl</mark>, <strong>IT1</strong>, <u>SŠPU</u> Opava</p>
+        </footer>
+    </div>
+</body>
+
+</html>

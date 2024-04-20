@@ -1,0 +1,71 @@
+#box {
+    width: 1116px;
+    height: 1417px;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 10px 0px rgb(192, 192, 192);
+}
+
+body {
+    background-color: rgb(236, 236, 236);
+}
+
+main {
+    padding-left: 75px;
+    padding-right: 75px;
+    font-size: 120%;
+}
+
+h1 {
+
+    font-size: 170%;
+    text-align: center;
+    color: rgb(0, 76, 255);
+    padding-top: 90px;
+    font-family: sans-serif;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 150%;
+}
+
+h3 {
+    font-size: 120%;
+}
+
+h4 {
+    font-size: 100%;
+}
+
+u {
+    text-decoration-style: dotted;
+}
+
+.odkaz {
+    font-size: 80%;
+}
+
+.odstavec1 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+table,
+th,
+td,
+tr {
+    width: 70%;
+    border: 1px solid black;
+}
+
+img {
+    width: 200px;
+    height: 100px;
+}
+
+footer {
+    padding-left: 75px;
+    padding-right: 75px;
+}
